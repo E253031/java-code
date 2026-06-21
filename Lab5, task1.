@@ -1,0 +1,30 @@
+public class BankAccount {
+
+    String accountHolder;
+    String accountNumber;
+    double balance;
+
+    // Constructor Method
+    public BankAccount(String accountHolder, String accountNumber, double balance) {
+        this.accountHolder = accountHolder;
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+    }
+
+    // Display Method
+    public void displayAccount() {
+        System.out.println("----- Bank Account Details -----");
+        System.out.println("Account Holder: " + accountHolder);
+        System.out.println("Account Number: " + accountNumber);
+        System.out.println("Balance: $" + balance);
+        System.out.println("--------------------------------");
+    }
+
+    // Main Method
+    public static void main(String[] args) {
+
+        BankAccount account1 = new BankAccount("Samadul Islam", "123456789", 5000.75);
+
+        account1.displayAccount();
+    }
+}

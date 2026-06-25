@@ -1,23 +1,26 @@
 class Grandfather {
-  void land() {
-    System.out.println(x: "Grandfather owns land.");
-  }
+    void land() {
+        System.out.println("Grandfather owns land.");
+    }
 }
+
 class Father extends Grandfather {
-  void house() {
-    System.out.println(x: "Father owns a house.");
-  }
+    void house() {
+        System.out.println("Father owns a house.");
+    }
 }
+
 class Son extends Father {
-  void bike() {
-    System.out.println(x: "Son owns a bike.");
-  }
+    void bike() {
+        System.out.println("Son owns a bike.");
+    }
 }
+
 public class labreport {
-  public static void main(String[] args) {
-    Son s = new Son( );
-    s.land();
-    s.house();
-    s.bike();
-  }
+    public static void main(String[] args) {
+        Son s = new Son();
+        s.land();
+        s.house();
+        s.bike();
+    }
 }

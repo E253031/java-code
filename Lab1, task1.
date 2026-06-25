@@ -1,23 +1,20 @@
 public class Samad {
 
-Run | Debug
-public static void main(String[] args) {
+    public static void main(String[] args) {
+        
+        String name = "Samadul Islam";
+        String studentId = "E253031";
+        int age = 21;
+        String email = "sam@gmail.com";
+        String phone = "01603113278";
+        String address = "Agrabad,Chattogram";
 
-String name = "Samadul Islam";
-String studentId = "E253031";
-int age = 21;
-
-System.out.println("Name	     : " + name);
-System.out.println("Student ID : " + studentId);
-System.out.println("Age        : " + age) ;
-System.out.println("Email      : " + email);
-System.out.println("Phone      : " + phone) ;
-System.out.println("Address    : " + address);
-+ 
-
-" + 
-+ 
-
-}
-
+        System.out.println("Name       : " + name);
+        System.out.println("Student ID : " + studentId);
+        System.out.println("Age        : " + age);
+        System.out.println("Email      : " + email);
+        System.out.println("Phone      : " + phone);
+        System.out.println("Address    : " + address);
+        
+    }
 }

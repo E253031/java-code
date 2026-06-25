@@ -1,0 +1,41 @@
+class Student {
+
+    private String name;
+    private String studentId;
+    private String department;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setStudentId(String studentId) {
+        this.studentId = studentId;
+    }
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
+public String getName() {
+    return name;
+}
+
+public String getStudentId() {
+    return studentId;
+}
+public String getDepartment() {
+    return department;
+}
+}
+public class labrpt9 {
+    public static void main(String[] args) {
+        
+        Student s1 = new Student();
+        
+        s1.setName("Samadul Islam");
+        s1.setStudentId("E253031");
+        s1.setDepartment("CCE");
+        
+        System.out.println("Student Name: " + s1.getName());
+        System.out.println("Student ID: " + s1.getStudentId());
+        System.out.println("Department: " + s1.getDepartment());
+    }
+}

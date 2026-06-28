@@ -1,0 +1,30 @@
+class Shape {
+  public void draw() {
+    System.out.println(x: "Drawing a shape.");
+  }
+}
+
+class Circle extends Shape {
+  @Override
+  public void draw() {
+    System.out.println(x: "Drawing a Circle.");
+  }
+}
+
+class Rectangle extends Shape {
+  @Override
+  public void draw() {
+    System.out.println(x: "Drawing a Rectangle.");
+  }
+}
+
+public class labrpt8task2 {
+  public static void main(String[] args) {
+
+    Shape s1 = new Circle();
+    Shape s2 = new Rectangle();
+
+    s1.draw();
+    s2.draw();
+  }
+}
